@@ -44,7 +44,7 @@ export default function AssetCard({ asset }) {
         alt={name}
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" noWrap>
           {description}
         </Typography>
       </CardContent>
